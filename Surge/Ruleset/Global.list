@@ -20,7 +20,9 @@ DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,branch.io
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,cocoapods.org
+DOMAIN-SUFFIX,codesandbox.io
 DOMAIN-SUFFIX,cookielaw.org
+DOMAIN-SUFFIX,csb.app
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,digitalocean.com
@@ -65,6 +67,7 @@ DOMAIN-SUFFIX,mastercard.us
 DOMAIN-SUFFIX,medibang.com
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mojang.com
+DOMAIN-SUFFIX,mux.com
 DOMAIN-SUFFIX,name.com
 DOMAIN-SUFFIX,netlify.app
 DOMAIN-SUFFIX,nextjs.org
@@ -74,7 +77,6 @@ DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,onesignal.com
-DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openvpn.net
 DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,palemoon.org
@@ -109,6 +111,8 @@ DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,tutanota.com
 DOMAIN-SUFFIX,ubnt.com
 DOMAIN-SUFFIX,ui.com
+DOMAIN-SUFFIX,unity.com
+DOMAIN-SUFFIX,unity3d.com
 DOMAIN-SUFFIX,unpkg.com
 DOMAIN-SUFFIX,unsplash.com
 DOMAIN-SUFFIX,usebottles.com
@@ -205,7 +209,23 @@ DOMAIN,testflight.apple.com
 DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,tumblr.com
 DOMAIN-SUFFIX,videopress.com
+DOMAIN-SUFFIX,w.org
 DOMAIN-SUFFIX,wordpress.com
+DOMAIN-SUFFIX,wordpress.org
+DOMAIN-SUFFIX,wordpress.tv
+DOMAIN-SUFFIX,wp-themes.com
+DOMAIN-SUFFIX,wp.com
+DOMAIN-SUFFIX,wpvip.com
+
+# > Blizzard
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,battlenet.com
+DOMAIN-SUFFIX,blizzard.com
+
+# > Box
+DOMAIN-SUFFIX,box.com
+DOMAIN-SUFFIX,boxcdn.net
+DOMAIN-SUFFIX,segment-box.com
 
 # > Cloudflare
 DOMAIN-SUFFIX,cf-ipfs.com
@@ -444,6 +464,10 @@ DOMAIN-SUFFIX,nytstyle.com
 DOMAIN-SUFFIX,tmagazine.com
 # ------
 
+# > OpenAI
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,openai.com
+
 # > Password Manager
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordservices.com
@@ -556,6 +580,7 @@ DOMAIN,search.yahoo.co.jp
 DOMAIN-SUFFIX,yandex.com
 DOMAIN-SUFFIX,yandex.net
 DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,yandexcloud.net
 DOMAIN-SUFFIX,yadi.sk
 DOMAIN-SUFFIX,yastatic.net
 
@@ -608,7 +633,6 @@ DOMAIN,tv.apple.com
 DOMAIN-KEYWORD,duolingo
 DOMAIN-SUFFIX,duolingo.cn
 DOMAIN-SUFFIX,duolingo.com
-
 
 # ---(Microsoft)---
 DOMAIN-SUFFIX,bing.com
