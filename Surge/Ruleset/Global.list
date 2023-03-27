@@ -41,6 +41,7 @@ DOMAIN-SUFFIX,f-droid.org
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,flathub.org
 DOMAIN-SUFFIX,flickr.com
+DOMAIN-SUFFIX,flickr.net
 DOMAIN-SUFFIX,genius.com
 DOMAIN-SUFFIX,gfw.report
 DOMAIN-SUFFIX,githack.com
@@ -70,9 +71,7 @@ DOMAIN-SUFFIX,mojang.com
 DOMAIN-SUFFIX,mux.com
 DOMAIN-SUFFIX,name.com
 DOMAIN-SUFFIX,netlify.app
-DOMAIN-SUFFIX,nextjs.org
 DOMAIN-SUFFIX,nodejs.org
-DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,nssurge.com
@@ -136,17 +135,6 @@ DOMAIN,ocsp.int-x3.letsencrypt.org
 DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
 
-# > Amazon
-DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN-SUFFIX,boxofficemojo.com
-DOMAIN-SUFFIX,imdb.com
-DOMAIN-SUFFIX,imdb.to
-DOMAIN-SUFFIX,media-imdb.com
-DOMAIN,d3c33hcgiwev3.cloudfront.net
-DOMAIN,payments-jp.amazon.com
-DOMAIN,s3-ap-northeast-1.amazonaws.com
-DOMAIN,s3-ap-southeast-2.amazonaws.com
-
 # > Alphabet
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,admob.com
@@ -201,6 +189,24 @@ DOMAIN-SUFFIX,zynamics.com
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,.blogspot.
 DOMAIN-SUFFIX,goog
+
+# > Amazon
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,boxofficemojo.com
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,imdb.to
+DOMAIN-SUFFIX,media-imdb.com
+DOMAIN,d3c33hcgiwev3.cloudfront.net
+DOMAIN,payments-jp.amazon.com
+DOMAIN,s3-ap-northeast-1.amazonaws.com
+DOMAIN,s3-ap-southeast-2.amazonaws.com
+
+# > Apkpure
+DOMAIN-SUFFIX,apkpure.com
+DOMAIN-SUFFIX,apkpure.net
+DOMAIN-SUFFIX,cdnpure.com
+DOMAIN-SUFFIX,pureapk.com
+DOMAIN-SUFFIX,winudf.com
 
 # > Apple
 DOMAIN,testflight.apple.com
@@ -334,8 +340,9 @@ IP-CIDR,203.104.144.0/21,no-resolve
 
 # > Mastodon
 DOMAIN-SUFFIX,joinmastodon.org
+DOMAIN-SUFFIX,instances.social
 DOMAIN-SUFFIX,tooot.app // Third-party Mastodon Client
-# More Mastodon instances will be added here, they can be found in https://instances.social/
+# More Mastodon instances will be added here
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,alive.bar
 DOMAIN-SUFFIX,cmx.im
@@ -464,6 +471,17 @@ DOMAIN-SUFFIX,nytstyle.com
 DOMAIN-SUFFIX,tmagazine.com
 # ------
 
+# > Nintendo
+DOMAIN-SUFFIX,ac-pocketcamp.com
+DOMAIN-KEYWORD,nintendo
+
+# > Notion
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notion.new
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.so
+
 # > OpenAI
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openai.com
@@ -478,6 +496,7 @@ DOMAIN-SUFFIX,pinimg.com
 DOMAIN-KEYWORD,.pinterest.
 
 # > pixiv
+DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pximg.net
@@ -552,10 +571,24 @@ DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,vine.co
 
 # > Vercel
-DOMAIN-SUFFIX,now.sh
+DOMAIN-SUFFIX,hyper.is
+DOMAIN-SUFFIX,nextjs.org
+DOMAIN-SUFFIX,static.fun
+DOMAIN-SUFFIX,title.sh
+DOMAIN-SUFFIX,turborepo.org
+DOMAIN-SUFFIX,vercel-analytics.com
+DOMAIN-SUFFIX,vercel-dns.com
+DOMAIN-SUFFIX,vercel-insights.com
+DOMAIN-SUFFIX,vercel-status.com
 DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,vercel.blog
 DOMAIN-SUFFIX,vercel.com
-DOMAIN-SUFFIX,vercel.dev
+DOMAIN-SUFFIX,vercel.events
+DOMAIN-SUFFIX,vercel.link
+DOMAIN-SUFFIX,vercel.live
+DOMAIN-SUFFIX,vercel.pub
+DOMAIN-SUFFIX,vercel.sh
+DOMAIN-SUFFIX,vercel.store
 
 # > Wikimedia Foundation
 DOMAIN-SUFFIX,mediawiki.org
@@ -574,7 +607,7 @@ DOMAIN-SUFFIX,wiktionary.org
 
 # > Yahoo
 DOMAIN-SUFFIX,yahoo.com
-DOMAIN,search.yahoo.co.jp
+DOMAIN-SUFFIX,yahoo.co.jp
 
 # > Yandex
 DOMAIN-SUFFIX,yandex.com
@@ -594,6 +627,39 @@ DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,terabox.com
 DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN,wego.here.com
+
+# ---(Adobe)---
+DOMAIN-SUFFIX,omtrdc.net
+DOMAIN-SUFFIX,astockcdn.net
+DOMAIN-KEYWORD,adobe
+
+# > Adobe Dev
+DOMAIN-SUFFIX,adobe.io
+DOMAIN-SUFFIX,developria.com
+
+# > Adobe Dynamic Media Delivery
+DOMAIN-SUFFIX,scene7.com
+
+# > Behance
+DOMAIN-SUFFIX,behance.net
+DOMAIN-SUFFIX,s2stagehance.com
+
+# > Creative Cloud
+DOMAIN-SUFFIX,adobecc.com
+DOMAIN-SUFFIX,adobecce.com
+DOMAIN-SUFFIX,adobeccstatic.com
+DOMAIN-SUFFIX,creativecloud.com
+DOMAIN-SUFFIX,creativesdk.com
+
+# > Tools
+DOMAIN-SUFFIX,compresspdf.new
+DOMAIN-SUFFIX,pdf.new
+DOMAIN-SUFFIX,sign.new
+
+# > Typekit
+DOMAIN-SUFFIX,typekit.com
+DOMAIN-SUFFIX,typekit.net
+# ------
 
 # > Alphabet
 DOMAIN-SUFFIX,go.dev
@@ -649,8 +715,16 @@ DOMAIN,teams.events.data.microsoft.com
 # DOMAIN,statics.teams.cdn.office.net
 
 # > Visual Studio
-DOMAIN-SUFFIX,vsassets.io
+DOMAIN-SUFFIX,exp-tas.com
+DOMAIN-SUFFIX,visualstudio-staging.com
+DOMAIN-SUFFIX,visualstudio.co
 DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,visualstudio.net
+DOMAIN-SUFFIX,vsassets.io
+DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN-SUFFIX,vscode-unpkg.net
+DOMAIN-SUFFIX,vscode-webview.net
+DOMAIN-SUFFIX,vscode.dev
 # ------
 
 # > Mozilia

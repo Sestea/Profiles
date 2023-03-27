@@ -28,6 +28,10 @@ DOMAIN,smtp-mail.outlook.com
 DOMAIN,smtp.office365.com
 DOMAIN,m.hotmail.com
 
+# > Windows Connectivity Test
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
+
 # > Windows Server Update Services
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
 DOMAIN-SUFFIX,update.microsoft.com
