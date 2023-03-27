@@ -1,0 +1,46 @@
+#!name=Censor.list for Surge Ruleset
+#!desc=Anti censorship and IP tracking
+#!author=Sestea
+#!homepage=https://github.com/Sestea/Profiles
+
+
+# > Bilibili
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,im9.com
+
+# > CoolApk
+DOMAIN,api.coolapk.com
+
+# > TapTap
+DOMAIN,api.taptapdada.com
+
+# > Tieba
+DOMAIN,fclog.baidu.com
+DOMAIN,gsp0.baidu.com
+DOMAIN,httpsdns.baidu.com
+DOMAIN,tbmsg.baidu.com
+DOMAIN,tb5.bdstatic.com
+DOMAIN,tieba.baidu.com
+DOMAIN,tiebac.baidu.com
+DOMAIN,www.baidu.com
+IP-CIDR,180.76.76.0/24,no-resolve
+
+# > Weibo
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibocdn.com
+DOMAIN-KEYWORD,weibo
+
+# > WeChat
+DOMAIN,mp.weixin.qq.com // WeChat official account comments
+DOMAIN,szextshort.weixin.qq.com
+DOMAIN,szminorshort.weixin.qq.com
+DOMAIN,szshort.weixin.qq.com
+
+# > Zhihu
+DOMAIN-SUFFIX,zhihu.com
+IP-CIDR,103.41.167.0/24,no-resolve
