@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,brave.com
   - DOMAIN-SUFFIX,branch.io
   - DOMAIN-SUFFIX,brew.sh
+  - DOMAIN-SUFFIX,bugsnag.com
   - DOMAIN-SUFFIX,cocoapods.org
   - DOMAIN-SUFFIX,codesandbox.io
   - DOMAIN-SUFFIX,cookielaw.org
@@ -85,10 +86,13 @@ payload:
   - DOMAIN-SUFFIX,proton.me
   - DOMAIN-SUFFIX,pypi.org
   - DOMAIN-SUFFIX,pythonhosted.org
+  - DOMAIN-SUFFIX,quantumult.app
   - DOMAIN-SUFFIX,quora.com
   - DOMAIN-SUFFIX,quoracdn.net
   - DOMAIN-SUFFIX,redhat.com
+  - DOMAIN-SUFFIX,revenuecat.com
   - DOMAIN-SUFFIX,rime.im
+  - DOMAIN-SUFFIX,rsshub.app
   - DOMAIN-SUFFIX,rust-lang.org
   - DOMAIN-SUFFIX,schemastore.org
   - DOMAIN-SUFFIX,sentry.io
@@ -104,6 +108,8 @@ payload:
   - DOMAIN-SUFFIX,staticflickr.com
   - DOMAIN-SUFFIX,substack.com
   - DOMAIN-SUFFIX,surge.sh
+  - DOMAIN-SUFFIX,surge-activation.com
+  - DOMAIN-SUFFIX,surgio.js.org
   - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,thepiratebay.org
   - DOMAIN-SUFFIX,thetvdb.com
@@ -152,6 +158,7 @@ payload:
   - DOMAIN-SUFFIX,blogger.com
   - DOMAIN-SUFFIX,chrome.com
   - DOMAIN-SUFFIX,chromium.org
+  - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,debug.com
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,dialogflow.com
@@ -211,6 +218,7 @@ payload:
 
   # > Apple
   - DOMAIN,testflight.apple.com
+  - DOMAIN-SUFFIX,safebrowsing.apple
 
   # > Automattic
   - DOMAIN-SUFFIX,gravatar.com
@@ -608,6 +616,7 @@ payload:
 
   # > Yahoo
   - DOMAIN-SUFFIX,yahoo.com
+  - DOMAIN-SUFFIX,yahoo.net
   - DOMAIN-SUFFIX,yahoo.co.jp
 
   # > Yandex
