@@ -45,6 +45,7 @@ DOMAIN-SUFFIX,flickr.com
 DOMAIN-SUFFIX,flickr.net
 DOMAIN-SUFFIX,genius.com
 DOMAIN-SUFFIX,gfw.report
+DOMAIN-SUFFIX,giscus.app
 DOMAIN-SUFFIX,githack.com
 DOMAIN-SUFFIX,gnome.org
 DOMAIN-SUFFIX,gnu.org
@@ -62,6 +63,7 @@ DOMAIN-SUFFIX,kde.org
 DOMAIN-SUFFIX,last.fm
 DOMAIN-SUFFIX,lencr.io
 DOMAIN-SUFFIX,lencr.org
+DOMAIN-SUFFIX,licensebuttons.net
 DOMAIN-SUFFIX,lowiro.com
 DOMAIN-SUFFIX,lowiro-cdn.net
 DOMAIN-SUFFIX,mastercard.com
@@ -69,6 +71,7 @@ DOMAIN-SUFFIX,mastercard.us
 DOMAIN-SUFFIX,medibang.com
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mojang.com
+DOMAIN-SUFFIX,mtf.wiki
 DOMAIN-SUFFIX,mux.com
 DOMAIN-SUFFIX,name.com
 DOMAIN-SUFFIX,netlify.app
@@ -80,6 +83,7 @@ DOMAIN-SUFFIX,onesignal.com
 DOMAIN-SUFFIX,openvpn.net
 DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,palemoon.org
+DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,podman.io
 DOMAIN-SUFFIX,privoxy.org
 DOMAIN-SUFFIX,proton.me
@@ -89,23 +93,27 @@ DOMAIN-SUFFIX,quantumult.app
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
 DOMAIN-SUFFIX,redhat.com
+DOMAIN-SUFFIX,regex.ai
 DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,rime.im
 DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,rust-lang.org
 DOMAIN-SUFFIX,schemastore.org
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,shadowsocks.org
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,singlelogin.me // Z-Library Project
 DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,snapchat.com
 DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,spoutible.com
 DOMAIN-SUFFIX,spring.io
 DOMAIN-SUFFIX,spring.net
 DOMAIN-SUFFIX,startpage.com
 DOMAIN-SUFFIX,staticflickr.com
 DOMAIN-SUFFIX,substack.com
+DOMAIN-SUFFIX,substackcdn.com
 DOMAIN-SUFFIX,surge.sh
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,surgio.js.org
@@ -396,6 +404,7 @@ DOMAIN-SUFFIX,github.blog
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubstatus.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,streaming.mediaservices.windows.net
