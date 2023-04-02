@@ -37,7 +37,7 @@ https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Surge,conf
 
 在 Surge 配置文件内添加（将 Proxy 替换为你的代理策略组）：
 
-```toml
+```ini
 [Rule]
 # [可选] 屏蔽规则（简单的广告拦截，防止运营商劫持，跟踪器和恶意软件屏蔽） 
 RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Ruleset/Block.list,REJECT
