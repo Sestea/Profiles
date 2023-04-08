@@ -12,7 +12,7 @@
 在 `Profiles` 页面点击 `Download Profile from URL`，复制下方链接并粘贴
 
 ```
-https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Surge,conf
+https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Surge.conf
 ```
 
 导入成功后，将 `[Proxy Group]` 下条目 `DuckDuckGo`（远程策略组示例）中的 `[REPLACE WITH YOUR SURGE NODELIST]` 字样替换为你的订阅链接。
