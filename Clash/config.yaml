@@ -234,11 +234,11 @@ rule-providers:
 
 rules:
   # --- (Remote Rules) ---
-  # Simple Blocking
+  # Simple AdBlock, Hijacking Prevention and Privacy Protection
   - RULE-SET,Block,REJECT
-  # Anti Censor
+  # Anti censorship and IP tracking
   - RULE-SET,Censor,Proxy
-  # Streaming Services
+  # International Streaming Services
   - RULE-SET,Streaming,Proxy
   # Global Network
   - RULE-SET,Global,Proxy
