@@ -1,0 +1,266 @@
+#-------------------------------------------------------#
+## Sestea/Profiles - Example clash premium config file
+## It needs to be placed in $HOME/.config/clash/*.yaml
+## All configuration option can be found here:
+## https://github.com/Dreamacro/clash/wiki/Configuration
+#-------------------------------------------------------#
+
+
+# HTTP(S) and SOCKS4(A)/SOCKS5 server on the same port
+mixed-port: 7890
+
+# Transparent proxy server port for Linux and macOS (Redirect TCP and TProxy UDP)
+# redir-port: 7892
+
+# Transparent proxy server port for Linux (TProxy TCP and TProxy UDP)
+# tproxy-port: 7893
+
+# Set to true to allow connections to the local-end server from other LAN IP addresses
+allow-lan: true
+
+# This is only applicable when `allow-lan` is `true`
+bind-address: '*'
+
+# Clash router working mode
+# rule: rule-based packet routing
+# global: all packets will be forwarded to a single endpoint
+# direct: directly forward the packets to the Internet
+mode: rule
+
+# Clash by default prints logs to STDOUT
+# info / warning / error / debug / silent
+log-level: info
+
+# When set to false, resolver won't translate hostnames to IPv6 addresses
+# ipv6: false
+
+# RESTful web API listening address
+external-controller: 127.0.0.1:9090
+
+# A relative path to the configuration directory or an absolute path to a
+# directory in which you put some static web resource. Clash core will then
+# serve it at `http://{{external-controller}}/ui`.
+# external-ui: folder
+
+# Secret for the RESTful API (optional)
+# Authenticate by spedifying HTTP header `Authorization: Bearer ${secret}`
+# ALWAYS set a secret if RESTful API is listening on 0.0.0.0
+# secret: "clash-secret"
+
+# Outbound interface name, conflict with tun.auto-detect-interface
+# interface-name: en0
+
+# fwmark on Linux only
+# routing-mark: 6666
+
+tun:
+  enable: true
+  stack: system # or gvisor
+  dns-hijack:
+    - any:53
+  auto-route: true # auto set global route
+  auto-detect-interface: true # conflict with interface-name
+
+# Static hosts for DNS server and connection establishment (like /etc/hosts)
+# Wildcard hostnames are supported (e.g. *.clash.dev, *.foo.*.example.com)
+# Non-wildcard domain names have a higher priority than wildcard domain names
+# e.g. foo.example.com > *.example.com > .example.com
+# P.S. +.foo.com equals to .foo.com and foo.com
+# hosts:
+  # '*.clash.dev': 127.0.0.1
+  # '.dev': 127.0.0.1
+  # 'alpha.clash.dev': '::1'
+
+# Store the `select` results in $HOME/.config/clash/.cache
+# set false If you don't want this behavior
+# when two different configurations have groups with the same name
+# the selected values are shared
+# profile:
+  # store-selected: true
+  # store-fake-ip: false
+
+
+# DNS Server Settings
+# This section is optional. When not present, the DNS server will be disabled
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false # when the false, response to AAAA questions will be empty
+  # These nameservers are used to resolve the DNS nameserver hostnames below
+  # Specify IP addresses only
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
+  use-hosts: true # lookup hosts and return IP record
+  # search-domains: [local] # search domains for A/AAAA record
+  # Hostnames in this list will not be resolved with fake IPs
+  # i.e. questions to these domain names will always be answered with their real IP addresses
+  fake-ip-filter:
+    # --- (Local Area Network) ---
+    - '*.lan'
+    # --- (System Connnect Detection) ---
+    - '*.archlinux.org'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    # --- (Game Services) ---
+    # > Nintendo Switch
+    - '+.srv.nintendo.net'
+    # > Sony PlayStation
+    - '+.stun.playstation.net'
+    # >  Microsoft Xbox
+    - 'xbox.*.microsoft.com'
+    - '+.xboxlive.com'
+    # --- (Other) ---
+    # > QQ Quick Login
+    - 'localhost.ptlogin2.qq.com'
+    # >  Golang
+    - 'proxy.golang.org'
+    # > STUN Server
+    - 'stun.*.*'
+    - 'stun.*.*.*'
+  # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to
+  # All DNS questions are sent directly to the nameserver, without proxies involved
+  # Clash answers the DNS question with the first result gathered
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    # - dhcp://en0 # DNS from DHCP
+    # - https://dns.alidns.com/dns-query # DNS over HTTPS
+    # - tls://dot.pub # DNS over TLS
+    # - '8.8.8.8#en0'
+  # Lookup domains via specific nameservers
+  # nameserver-policy:
+  #   'www.baidu.com': '114.114.114.114'
+  #   '+.internal.crop.com': '10.0.0.1'
+
+
+proxies:
+
+
+proxy-groups:
+  # The proxy policy in rules is this
+  # You can use RESTful API to switch proxy is recommended for use in GUI
+  - name: Proxy
+    type: select
+    # disable-udp: true
+    proxies:
+      - DuckDuckGo
+
+  - name: DuckDuckGo
+    type: select
+    use:
+      - subscribe
+
+  # url-test select which proxy will be used by benchmarking speed to a URL
+  - name: "AutoTest"
+    type: url-test
+    use:
+      - subscribe
+    tolerance: 50
+    lazy: true
+    url: 'http://cp.cloudflare.com/generate_204'
+    interval: 300
+
+  # fallback selects an available policy by priority
+  # The availability is tested by accessing an URL, just like an auto url-test group
+  - name: "Fallback"
+    type: fallback
+    use:
+      - subscribe
+    url: 'http://cp.cloudflare.com/generate_204'
+    interval: 300
+
+
+proxy-providers:
+  subscribe:
+    type: http
+    url: "url"
+    interval: 43200
+    path: ./proxyset/subscribe.yaml
+    health-check:
+      enable: true
+      interval: 300
+      # lazy: true
+      url: 'http://cp.cloudflare.com/generate_204'
+
+
+# The request to load rule-providers will not be relayed by clash premium core
+# Remote link that can be reached directly is required
+rule-providers:
+  Block:
+    behavior: classical
+    type: http
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Block.yaml"
+    interval: 43200
+    path: ./ruleset/Block.yaml
+
+  Censor:
+    behavior: classical
+    type: http
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Censor.yaml"
+    interval: 43200
+    path: ./ruleset/Censor.yaml
+
+  Streaming:
+    behavior: classical
+    type: http
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Streaming.yaml"
+    interval: 43200
+    path: ./ruleset/Streaming.yaml
+
+  Global:
+    behavior: classical
+    type: http
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Global.yaml"
+    interval: 43200
+    path: ./ruleset/Global.yaml
+
+  Apple:
+    behavior: classical
+    type: http
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Apple.yaml"
+    interval: 43200
+    path: ./ruleset/Apple.yaml
+
+  China:
+    behavior: classical
+    type: http
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/China.yaml"
+    interval: 43200
+    path: ./ruleset/China.yaml
+
+
+rules:
+  # --- (Remote Rules) ---
+  # Simple Blocking
+  - RULE-SET,Block,REJECT
+  # Anti Censor
+  - RULE-SET,Censor,Proxy
+  # Streaming Services
+  - RULE-SET,Streaming,Proxy
+  # Global Network
+  - RULE-SET,Global,Proxy
+  # Apple Services
+  - RULE-SET,Apple,DIRECT
+  # China Area Network
+  - RULE-SET,China,DIRECT
+  # ------
+
+  # --- (Local Area Network) ---
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,17.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR6,fe80::/10,DIRECT
+  # ------
+  
+  # GeoIP China
+  - GEOIP,CN,DIRECT
+  # Domains that are not resolvable will also be matched that policy
+  - MATCH,,Proxy,dns-failed
