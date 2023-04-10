@@ -8,15 +8,15 @@ let args = getArgs();
   let used = info.download + info.upload;
   let total = info.total;
   let expire = args.expire || info.expire;
-  let content = [`Traffic: ${bytesToSize(used)} | ${bytesToSize(total)}`];
+  let content = [`${bytesToSize(used)} | ${bytesToSize(total)}`];
 
   if (resetDayLeft) {
-    content.push(`Reset: ${resetDayLeft} days left`);
+    content.push(`${resetDayLeft} days left to reset`);
   }
 
   if (expire && expire !== 'false') {
     if (/^[\d.]+$/.test(expire)) expire *= 1000;
-    content.push(`Expire: ${formatTime(expire)}`);
+    content.push(`Expires on ${formatTime(expire)}`);
   }
 
   let now = new Date();
@@ -24,8 +24,8 @@ let args = getArgs();
   $done({
     title: `${args.title}`,
     content: content.join('\n'),
-    icon: args.icon || 'airplane',
-    'icon-color': args.color || '#007aff',
+    icon: args.icon || 'cloud',
+    'icon-color': args.color || '#2c8ab8',
   });
 })();
 
