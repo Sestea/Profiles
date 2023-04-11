@@ -2,7 +2,18 @@
 
 ## 资源
 
-[官方网站](https://nssurge.com/) [理解原理](https://manual.nssurge.com/book/understanding-surge/cn/) [手册](http://manual.nssurge.com/) [常见问题](https://nssurge.zendesk.com/) [社区](https://community.nssurge.com/)
+### 帮助
+
+[官方网站](https://nssurge.com/) [理解原理](https://manual.nssurge.com/book/understanding-surge/cn/) [手册](http://manual.nssurge.com/) [知识库](https://kb.nssurge.com/surge-knowledge-base/v/zh/) [常见问题](https://nssurge.zendesk.com/) [社区](https://community.nssurge.com/)
+
+### 模块
+
+| Name | Description | Usage |
+| ---- | ----------- | ----- |
+| [IP Info Panel](https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Module/IP_Info_Panel.sgmodule) | 在 Surge 面板中显示节点 IP 信息 | 参照注释使用
+| [Sub Info Panel](https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Module/Sub_Info_Panel.sgmodule) | 在 Surge 面板中显示机场订阅信息 | 复制到本地后参照注释修改参数使用
+| [iRingo](https://github.com/VirgilClyne/iRingo) | 解锁完整的 Apple 功能和集成服务 | 访问项目主页按照 Wiki 操作
+| [YouTubeAds](https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule) | 去除 Youtube 广告 (iOS >= 15) | 直接导入使用
 
 
 ## 说明
@@ -78,8 +89,3 @@ FINAL,Proxy,dns-failed
 #### 关于启用了 IP 归属地显示的平台
 
 国内很多平台都在近期开启了 IP 归属地显示，为了避免泄露个人信息，这里借鉴了 [anti-ip-attribution](https://github.com/lwd-temp/anti-ip-attribution) 项目并将个人常用的部分平台域名加入了 Censor.list 并指定代理策略，请在启用前浏览规则条目。如果有相关需求建议在这个项目中查找并自行添加到本地使用。
-
-### 模块
-
-[iRingo - 解锁完整的 Apple 功能和集成服务](https://github.com/VirgilClyne/iRingo)  
-[去除 YouTube 广告](https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule)
