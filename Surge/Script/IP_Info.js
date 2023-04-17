@@ -15,7 +15,7 @@
     $done({
       title: rootName,
       content: `${jsonData.country} - ${jsonData.city}\n`+ `${jsonData.as}\n` + `${jsonData.query}`,
-      icon: params.icon || 'externaldrive.connected.to.line.below',
+      icon: params.icon || 'externaldrive.connected.to.line.below.fill',
       'icon-color': params.color || '#9a7ff7'
     });
   });

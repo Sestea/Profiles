@@ -6,7 +6,7 @@
 # 可选参数 "color"，当使用 icon 字段时，可传入 color 字段控制图标颜色，字段内容为颜色的 HEX 编码。如："color=#007aff"
 
 [Script]
-IP_Info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Script/IP_Info.js,argument=group=Proxy&icon=externaldrive.connected.to.line.below&color=#9a7ff7
+IP_Info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Script/IP_Info.js,argument=group=Proxy&icon=externaldrive.connected.to.line.below.fill&color=#9a7ff7
 
 [Panel]
 IP_Info_Panel = script-name=IP_Info,update-interval=1
