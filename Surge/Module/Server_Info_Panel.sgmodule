@@ -1,0 +1,8 @@
+#!name=Server Info Panel
+#!desc=Display remote server information.
+
+[Script]
+Server_Info = type=generic,timeout=1000,script-path=https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Script/Server_Info_Panel/Server_Info.js,argument=server=localhost:7122
+
+[Panel]
+Server_Info_Panel = script-name=Server_Info,update-interval=600
