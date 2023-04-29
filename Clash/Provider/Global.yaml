@@ -404,6 +404,7 @@ payload:
   - DOMAIN-SUFFIX,github.blog
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubapp.com
   - DOMAIN-SUFFIX,githubassets.com
   - DOMAIN-SUFFIX,githubstatus.com
   - DOMAIN-SUFFIX,githubusercontent.com
