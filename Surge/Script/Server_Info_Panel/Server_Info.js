@@ -3,7 +3,7 @@
   $httpClient.get(params.server, function (error, response, data) {
     const jsonData = JSON.parse(data);
     $done({
-      title: params.name | 'Server Info',
+      title: params.name || 'Server Info',
       content: `Uptime: ${jsonData.uptime}\n` + `CPU: ${jsonData.cpu_usage}% | MEM: ${jsonData.mem_usage}%\n`+ `${bytesToSize(jsonData.bytes_sent)} ↑ ${bytesToSize(jsonData.bytes_recv)} ↓`,
       icon: params.icon || 'rays.system',
       'icon-color': params.color || '#39c5bb'
