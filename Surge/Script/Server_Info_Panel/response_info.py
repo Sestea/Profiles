@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-# Sestea
-
 import http.server
 import socketserver
 import json
@@ -18,23 +16,23 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
 
         # Limit the HTTP server to one request per second
         time.sleep(1)
+        
+        # Get UTC timestamp and uptime
+        utc_timestamp = int(time.time())
+        uptime = int(time.time() - psutil.boot_time())
 
-        # Obtain CPU/MEM usage and network traffic info
+        # Get CPU/MEM usage and network traffic info
         cpu_usage = psutil.cpu_percent()
         mem_usage = psutil.virtual_memory().percent
         bytes_sent = psutil.net_io_counters().bytes_sent
         bytes_recv = psutil.net_io_counters().bytes_recv
 
-        # Calculate uptime
-        uptime_seconds = int(time.time() - psutil.boot_time())
-        uptime_hours, uptime_seconds = divmod(uptime_seconds, 3600)
-        uptime_minutes, uptime_seconds = divmod(uptime_seconds, 60)
-
         # Construct JSON dictionary
         response_dict = {
+            "utc_timestamp": utc_timestamp,
+            "uptime": uptime,
             "cpu_usage": cpu_usage,
             "mem_usage": mem_usage,
-            "uptime": f"{uptime_hours}h {uptime_minutes}m",
             "bytes_sent": str(bytes_sent),
             "bytes_recv": str(bytes_recv)
         }
@@ -48,4 +46,4 @@ with socketserver.ThreadingTCPServer(("", port), RequestHandler) as httpd:
         print(f"Serving at port {port}")
         httpd.serve_forever()
     except KeyboardInterrupt:
-        print("KeyboardInterrupt is captured, program exited")
+        print("Program exited")

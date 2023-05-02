@@ -4,21 +4,13 @@
     const jsonData = JSON.parse(data);
     $done({
       title: params.name || 'Server Info',
-      content: `Uptime: ${jsonData.uptime}\n` + `CPU: ${jsonData.cpu_usage}% | MEM: ${jsonData.mem_usage}%\n`+ `${bytesToSize(jsonData.bytes_sent)} ↑ ${bytesToSize(jsonData.bytes_recv)} ↓`,
-      icon: params.icon || 'rays.system',
+      content: `Uptime: ${formatUptime(jsonData.uptime)}\n` + `CPU: ${jsonData.cpu_usage}% | MEM: ${jsonData.mem_usage}%\n`+ `${bytesToSize(jsonData.bytes_sent)} ↑ ${bytesToSize(jsonData.bytes_recv)} ↓`,
+      icon: params.icon || 'rays',
       'icon-color': params.color || '#39c5bb'
     });
   });
 })();
-    
-function httpAPI(path = '', method = 'GET', body = null) {
-  return new Promise((resolve) => {
-    $httpAPI(method, path, body, (result) => {
-      resolve(result);
-    });
-  });
-};
-    
+        
 function getParams(param) {
   return Object.fromEntries(
   $argument
@@ -26,6 +18,23 @@ function getParams(param) {
     .map((item) => item.split('='))
     .map(([k, v]) => [k, decodeURIComponent(v)])
   );
+}
+
+function formatUptime(seconds) {
+  var days = Math.floor(seconds / (3600 * 24));
+  var hours = Math.floor((seconds % (3600 * 24)) / 3600);
+  var minutes = Math.floor((seconds % 3600) / 60);
+  var result = '';
+  if (days > 0) {
+    result += days + ' day' + (days > 1 ? 's' : '') + ', ';
+  }
+  if (hours > 0) {
+    result += hours + ' hour' + (hours > 1 ? 's' : '') + ' ';
+  }
+  if (minutes > 0 || result === '') {
+    result += minutes + ' min' + (minutes > 1 ? 's' : '');
+  }
+  return result;
 }
 
 function bytesToSize(bytes) {
