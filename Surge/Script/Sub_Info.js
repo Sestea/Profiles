@@ -10,7 +10,7 @@ let args = getArgs();
   let expire = args.expire || info.expire;
   let content = [`${bytesToSize(used)} | ${bytesToSize(total)}`];
 
-  if (!(resetDayLeft === null)) {
+  if (!(resetDayLeft === undefined)) {
     content.push(`${resetDayLeft}` + ' day' + (resetDayLeft > 1 ? 's' : '') + ' until reset');
   }
 
@@ -20,7 +20,7 @@ let args = getArgs();
   }
  
   $done({
-    title: `${args.title}`,
+    title: args.title || 'Subscription Info',
     content: content.join('\n'),
     icon: args.icon || 'cloud',
     'icon-color': args.color || '#2c8ab8',
