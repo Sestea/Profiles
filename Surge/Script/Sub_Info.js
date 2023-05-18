@@ -3,24 +3,22 @@ let args = getArgs();
 (async () => {
   let info = await getDataInfo(args.url);
   if (!info) $done();
-  let resetDayLeft = getRmainingDays(parseInt(args['reset_day']));
 
+  let resetDayLeft = getRmainingDays(parseInt(args['reset_day']));
   let used = info.download + info.upload;
   let total = info.total;
   let expire = args.expire || info.expire;
   let content = [`${bytesToSize(used)} | ${bytesToSize(total)}`];
 
   if (resetDayLeft) {
-    content.push(`${resetDayLeft} days left to reset`);
+    content.push(`${resetDayLeft}` + ' day' + (resetDayLeft > 1 ? 's' : '') + ' until reset');
   }
 
   if (expire && expire !== 'false') {
     if (/^[\d.]+$/.test(expire)) expire *= 1000;
     content.push(`Expires on ${formatTime(expire)}`);
   }
-
-  let now = new Date();
-
+ 
   $done({
     title: `${args.title}`,
     content: content.join('\n'),
@@ -41,6 +39,7 @@ function getArgs() {
 function getUserInfo(url) {
   let method = args.method || 'head';
   let request = { headers: { 'User-Agent': 'Quantumult%20X' }, url };
+
   return new Promise((resolve, reject) =>
     $httpClient[method](request, (err, resp) => {
       if (err != null) {
@@ -82,14 +81,14 @@ async function getDataInfo(url) {
 
 function getRmainingDays(resetDay) {
   if (!resetDay) return;
-
+  
   let now = new Date();
   let today = now.getDate();
   let month = now.getMonth();
   let year = now.getFullYear();
   let daysInMonth;
 
-  if (resetDay > today) {
+  if (resetDay >= today) {
     daysInMonth = 0;
   } else {
     daysInMonth = new Date(year, month + 1, 0).getDate();
