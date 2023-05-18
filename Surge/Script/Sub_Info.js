@@ -10,7 +10,7 @@ let args = getArgs();
   let expire = args.expire || info.expire;
   let content = [`${bytesToSize(used)} | ${bytesToSize(total)}`];
 
-  if (resetDayLeft) {
+  if (!(resetDayLeft === null)) {
     content.push(`${resetDayLeft}` + ' day' + (resetDayLeft > 1 ? 's' : '') + ' until reset');
   }
 
@@ -88,10 +88,10 @@ function getRmainingDays(resetDay) {
   let year = now.getFullYear();
   let daysInMonth;
 
-  if (resetDay >= today) {
-    daysInMonth = 0;
-  } else {
+  if (resetDay < today) {
     daysInMonth = new Date(year, month + 1, 0).getDate();
+  } else {
+    daysInMonth = 0;
   }
 
   return daysInMonth - today + resetDay;
