@@ -1,14 +1,6 @@
 #!name=Sub Info Panel
 #!desc=Show subscription information for proxy providers
 
-# 本模块不能直接导入到 Surge 使用，请复制到本地修改，参数名和参数值用 "=" 号连接，多个参数之间用 "&" 分隔
-# 先将带有流量信息的订阅链接 encode，用 encode 后的链接替换 "url=" 后的 [URL Encode 后的订阅链接]
-# 可选参数 "reset_day"，后面的数字替换成流量每月重置的日期，如8号就写 "reset_day=8"，不加该参数不会显示流量重置信息
-# 可选参数 "expire"，机场链接不带 expire 信息的，可以手动传入 expire 参数，如"expire=2022-02-01"，注意一定要按照 yyyy-MM-dd 的格式。不希望显示到期信息也可以添加 "expire=false" 取消显示
-# 可选参数 "title"，可以自定义标题
-# 可选参数 "icon"，可以自定义图标，内容为任意有效的 SF Symbol Name，如 "bolt.horizontal.circle.fill"
-# 可选参数 "color"，当使用 icon 字段时，可传入 color 字段控制图标颜色，字段内容为颜色的 HEX 编码。如："color=#007aff"
-
 [Script]
 Sub_Info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Script/Sub_Info.js,script-update-interval=0,argument=url=[URL Encode 后的订阅链接]
 

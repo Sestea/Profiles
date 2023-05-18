@@ -8,13 +8,7 @@
 
 ### 模块
 
-| Name | Description | Usage |
-| ---- | ----------- | ----- |
-| [IP Info Panel](https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Module/IP_Info_Panel.sgmodule) | 在 Surge 面板中显示节点 IP 信息 | 参照注释使用
-| [Sub Info Panel](https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Module/Sub_Info_Panel.sgmodule) | 在 Surge 面板中显示机场订阅信息 | 复制到本地后参照注释修改参数使用
-| [iRingo](https://github.com/VirgilClyne/iRingo) | 解锁完整的 Apple 功能和集成服务 | 访问项目主页按照 Wiki 操作
-| [YouTubeAds](https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule) | 去除 Youtube 广告 (iOS >= 15) | 直接导入使用
-
+请访问子页面寻找模块列表及使用说明。[README→](./Module/README.md)
 
 ## 说明
 
