@@ -1,0 +1,8 @@
+#!name=IP Info Panel
+#!desc=Display the IP information of the proxies in the 'Proxy' policy group.
+
+[Script]
+IP_Info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Sestea/Profiles/beta/Script/Surge/IP_Info_Panel/IP_Info.js,argument=group=Proxy&icon=externaldrive.connected.to.line.below.fill&color=#9a7ff7
+
+[Panel]
+IP_Info_Panel = script-name=IP_Info,update-interval=1

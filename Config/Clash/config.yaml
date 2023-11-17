@@ -176,7 +176,7 @@ proxy-groups:
 proxy-providers:
   subscribe:
     type: http
-    url: "url"
+    url: "[SUBLINK]"
     interval: 43200
     path: ./proxyset/subscribe.yaml
     health-check:
@@ -192,52 +192,48 @@ rule-providers:
   Block:
     behavior: classical
     type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Block.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/beta/Ruleset/Block.list"
     interval: 43200
-    path: ./ruleset/Block.yaml
-
-  Censor:
-    behavior: classical
-    type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Censor.yaml"
-    interval: 43200
-    path: ./ruleset/Censor.yaml
+    path: ./ruleset/Block.list
 
   Streaming:
     behavior: classical
     type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Streaming.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/beta/Ruleset/Streaming.list"
     interval: 43200
-    path: ./ruleset/Streaming.yaml
+    path: ./ruleset/Streaming.list
 
   Global:
     behavior: classical
     type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Global.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/beta/Ruleset/Global.list"
     interval: 43200
-    path: ./ruleset/Global.yaml
+    path: ./ruleset/Global.list
 
   Apple:
     behavior: classical
     type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Apple.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/beta/Ruleset/Apple.list"
     interval: 43200
-    path: ./ruleset/Apple.yaml
+    path: ./ruleset/Apple.list
 
   China:
     behavior: classical
     type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/China.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/beta/Ruleset/China.list"
     interval: 43200
-    path: ./ruleset/China.yaml
+    path: ./ruleset/China.list
 
 
 rules:
   # --- (Remote Rules) ---
   # Simple AdBlock, Hijacking Prevention and Privacy Protection
   - RULE-SET,Block,REJECT
-  # Anti censorship and IP tracking
-  - RULE-SET,Censor,Proxy
   # International Streaming Services
   - RULE-SET,Streaming,Proxy
   # Global Network
@@ -259,7 +255,7 @@ rules:
   - IP-CIDR,224.0.0.0/4,DIRECT
   - IP-CIDR6,fe80::/10,DIRECT
   # ------
-  
+
   # GeoIP China
   - GEOIP,CN,DIRECT
   # Domains that are not resolvable will also be matched that policy

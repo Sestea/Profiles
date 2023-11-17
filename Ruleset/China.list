@@ -1,13 +1,7 @@
-#!name=China.list for Surge Ruleset
-#!desc=China Area Network
-#!author=Sestea
-#!homepage=https://github.com/Sestea/Profiles
+# China Area Network
 
-
-DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,snapdrop.net
-DOMAIN,origin-a.akamaihd.net // Origin Download
-
+DOMAIN,origin-a.akamaihd.net
 # > Epic Games
 DOMAIN-SUFFIX,eac-cdn.com
 DOMAIN-SUFFIX,easy.ac
@@ -16,22 +10,10 @@ DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,epicgames.dev
 DOMAIN-SUFFIX,unrealengine.com
 DOMAIN-SUFFIX,unrealtournament.com
-DOMAIN-KEYWORD,epicgames
-
 # ---(Microsoft)---
-# > OneDrive for Business
-DOMAIN-SUFFIX,sharepoint.com
-
-# > Outlook
-DOMAIN,outlook.office365.com
-DOMAIN,smtp-mail.outlook.com
-DOMAIN,smtp.office365.com
-DOMAIN,m.hotmail.com
-
 # > Windows Connectivity Test
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
-
 # > Windows Server Update Services
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
 DOMAIN-SUFFIX,update.microsoft.com
@@ -41,17 +23,14 @@ DOMAIN,download.microsoft.com
 DOMAIN,wustat.windows.com
 DOMAIN,ntservicepack.microsoft.com
 # ------
-
 # > PayPal
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypal-mktg.com
 DOMAIN-SUFFIX,paypalobjects.com
-
 # > Steam
-DOMAIN-SUFFIX,cm.steampowered.com // Steam Connect Manager Servers
+DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamserver.net
-
 # > TeamViewer
 DOMAIN-SUFFIX,teamviewer.com
 IP-CIDR,139.220.243.27/32,no-resolve
@@ -62,17 +41,15 @@ IP-CIDR6,2a0b:b580::/48,no-resolve
 IP-CIDR6,2a0b:b581::/48,no-resolve
 IP-CIDR6,2a0b:b582::/48,no-resolve
 IP-CIDR6,2a0b:b583::/48,no-resolve
-
 # > Tencent
 IP-CIDR,182.254.116.0/24,no-resolve
 IP-CIDR,203.205.238.0/23,no-resolve
 IP-CIDR,203.205.254.0/23,no-resolve
-
 # > IP Query
+DOMAIN-SUFFIX,ipip.net
+DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN,ip.istatmenus.app
 DOMAIN,sms.imagetasks.com
-DOMAIN-SUFFIX,test-ipv6.com
-
 # > Private Tracker
 DOMAIN-SUFFIX,acg.rip
 DOMAIN-SUFFIX,animebytes.tv
