@@ -9,7 +9,7 @@
 
 ### 快速上手
 
-将 [示例配置](https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/config.yaml) 复制到代码编辑器内。
+将 [示例配置](https://raw.githubusercontent.com/Sestea/Profiles/beta/Config/Clash/config.yaml) 复制到代码编辑器内。
 
 > Clash 配置文件为 yaml 格式，请使用有自动缩进和语法高亮的代码编辑器（如 Visual Studio Code）以避免格式错误。 
 
@@ -18,7 +18,7 @@
 ```yaml
 subscribe:
     type: http
-    url: "url"
+    url: "[SUBLINK]"
     interval: 43200
     path: ./proxyset/subscribe.yaml
     health-check:
@@ -29,7 +29,3 @@ subscribe:
 ```
 
 将 `url:` 后引号中的内容替换为你的订阅链接，保存文件。然后自行导入到你的 clash 客户端，等待远程资源更新完毕后即可使用。
-
-### DNS
-
-Clash 的 DNS 配置较为复杂，详情请参考文档。

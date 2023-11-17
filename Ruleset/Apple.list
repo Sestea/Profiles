@@ -1,8 +1,4 @@
-#!name=Apple.list for Surge Ruleset
-#!desc=Apple Services
-#!author=Sestea
-#!homepage=https://github.com/Sestea/Profiles
-
+# Apple Services
 
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.cn
