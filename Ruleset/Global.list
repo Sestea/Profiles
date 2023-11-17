@@ -461,7 +461,7 @@ DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN,store.steampowered.com
 # > Telegram
-DOMAIN-SUFFIX,comments.app // @CommentsBot
+DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,graph.org
 DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,t.me

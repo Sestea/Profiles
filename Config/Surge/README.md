@@ -40,7 +40,7 @@ https://raw.githubusercontent.com/Sestea/Profiles/master/Config/Surge/Surge.conf
 
 ### 规则
 
-### 规则列表
+#### 更多信息请查看 [Ruleset Summary](/Ruleset/README.md)
 
  Ruleset | Description | Policy
  ---- | ----------- | ----------------
@@ -53,7 +53,7 @@ GEOIP,CN | DNS 解析分流 | DIRECT
 LAN | 本地局域网 | DIRECT
 FINAL | 默认策略 | PROXY
 
-> FINAL 走代理时建议增加 `dns-failed` 参数，此时当连接域名 DNS 解析失败且未匹配到上述所有规则时，将会被直接转发至代理服务器，否则连接将会被直接中断。（如果 FINAL 走直连则该参数无效）
+> FINAL 建议增加 `dns-failed` 参数，当连接域名进行规则匹配时若 DNS 解析失败，将会被直接转发至代理服务器，否则连接将会被直接中断。（此选项仅在与非 DIRECT 策略一起使用时才有意义）
 
 #### 关于广告拦截
 
