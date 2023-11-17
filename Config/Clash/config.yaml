@@ -193,7 +193,7 @@ rule-providers:
     behavior: classical
     type: http
     format: text
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/beta/Ruleset/Block.list"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Ruleset/Block.list"
     interval: 43200
     path: ./ruleset/Block.list
 
@@ -201,7 +201,7 @@ rule-providers:
     behavior: classical
     type: http
     format: text
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/beta/Ruleset/Streaming.list"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Ruleset/Streaming.list"
     interval: 43200
     path: ./ruleset/Streaming.list
 
@@ -209,7 +209,7 @@ rule-providers:
     behavior: classical
     type: http
     format: text
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/beta/Ruleset/Global.list"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Ruleset/Global.list"
     interval: 43200
     path: ./ruleset/Global.list
 
@@ -217,7 +217,7 @@ rule-providers:
     behavior: classical
     type: http
     format: text
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/beta/Ruleset/Apple.list"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Ruleset/Apple.list"
     interval: 43200
     path: ./ruleset/Apple.list
 
@@ -225,7 +225,7 @@ rule-providers:
     behavior: classical
     type: http
     format: text
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/beta/Ruleset/China.list"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Ruleset/China.list"
     interval: 43200
     path: ./ruleset/China.list
 

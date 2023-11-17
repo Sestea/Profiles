@@ -5,7 +5,7 @@
 参数 "group" 指定面板显示哪个策略组的代理 IP 信息，默认值为 "Proxy"。如果你的代理策略组名称不是 "Proxy" 或需要修改可选参数，请将模块复制到本地修改。否则可以直接从以下 URL 导入并安装。
 
 ```
-https://raw.githubusercontent.com/Sestea/Profiles/beta/Script/Surge/IP_Info_Panel/IP_Info_Panel.sgmodule
+https://raw.githubusercontent.com/Sestea/Profiles/master/Script/Surge/IP_Info_Panel/IP_Info_Panel.sgmodule
 ```
 
 ### 可选参数

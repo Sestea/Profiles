@@ -20,7 +20,7 @@ pip install http.server socketserver json time psutil
 
 ### 2.下载并运行脚本
 ```sh
-wget https://raw.githubusercontent.com/Sestea/Profiles/beta/Script/Surge/Server_Info_Panel/server-info.py /usr/local/share/server-info/server-info.py
+wget https://raw.githubusercontent.com/Sestea/Profiles/master/Script/Surge/Server_Info_Panel/server-info.py /usr/local/share/server-info/server-info.py
 python3 /usr/local/share/server-info/server-info.py
 ```
 
@@ -59,7 +59,7 @@ systemctl enable --now server-info.service
 #!desc=Display remote server information.
 
 [Script]
-Server_Info = type=generic,timeout=1000,script-path=https://raw.githubusercontent.com/Sestea/Profiles/beta/Script/Surge/Server_Info_Panel/Server_Info.js,argument=server=http://[ADDRESS]:[PORT]
+Server_Info = type=generic,timeout=1000,script-path=https://raw.githubusercontent.com/Sestea/Profiles/master/Script/Surge/Server_Info_Panel/Server_Info.js,argument=server=http://[ADDRESS]:[PORT]
 
 [Panel]
 Server_Info_Panel = script-name=Server_Info,update-interval=600

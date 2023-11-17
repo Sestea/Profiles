@@ -9,7 +9,7 @@
 #!desc=Show subscription information for proxy providers
 
 [Script]
-Sub_Info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Sestea/Profiles/beta/Script/Surge/Sub_Info_Panel/Sub_Info.js,script-update-interval=0,argument=url=[SUBLINK]
+Sub_Info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Sestea/Profiles/master/Script/Surge/Sub_Info_Panel/Sub_Info.js,script-update-interval=0,argument=url=[SUBLINK]
 
 [Panel]
 Sub_info_Panel = script-name=Sub_Info,update-interval=600

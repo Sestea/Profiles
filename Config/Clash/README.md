@@ -9,7 +9,7 @@
 
 ### 快速上手
 
-将 [示例配置](https://raw.githubusercontent.com/Sestea/Profiles/beta/Config/Clash/config.yaml) 复制到代码编辑器内。
+将 [示例配置](https://raw.githubusercontent.com/Sestea/Profiles/master/Config/Clash/config.yaml) 复制到代码编辑器内。
 
 > Clash 配置文件为 yaml 格式，请使用有自动缩进和语法高亮的代码编辑器（如 Visual Studio Code）以避免格式错误。 
 
