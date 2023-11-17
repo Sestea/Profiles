@@ -37,7 +37,7 @@ test = type=generic,timeout=10,script-path=test.js,script-update-interval=0,argu
 参数 "group" 指定面板显示哪个策略组的代理 IP 信息，默认值为 "Proxy"。如果你的代理策略组名称不是 "Proxy" 或需要修改可选参数，请将模块复制到本地修改。否则可以直接从以下 URL 导入并安装。
 
 ```
-https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Module/IP_Info_Panel.sgmodule
+https://raw.githubusercontent.com/Sestea/Profiles/legacy/Surge/Module/IP_Info_Panel.sgmodule
 ```
 
 #### 可选参数
@@ -52,7 +52,7 @@ https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Module/IP_Info_Pa
 本模块不能直接导入到 Surge 使用，请复制到本地修改。需要先将带有流量信息的订阅链接 encode，然后替换 `url=` 后的 [URL Encode 后的订阅链接] 字样。
 
 ```
-https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Module/Sub_Info_Panel.sgmodule
+https://raw.githubusercontent.com/Sestea/Profiles/legacy/Surge/Module/Sub_Info_Panel.sgmodule
 ```
 
 #### 可选参数
@@ -84,7 +84,7 @@ pip install http.server socketserver json time psutil
 
 #### 2.下载并运行脚本
 ```sh
-wget https://github.com/Sestea/Profiles/blob/master/Surge/Source/server-info.py /usr/local/share/server-info/server-info.py
+wget https://raw.githubusercontent.com/Sestea/Profiles/legacy/Surge/Source/server-info.py /usr/local/share/server-info/server-info.py
 python3 /usr/local/share/server-info/server-info.py
 ```
 
@@ -117,7 +117,7 @@ systemctl enable --now server-info.service
 #### 4.配置 Surge Module
 将以下 URL 中的内容复制到本地模块修改：
 ```
-https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Module/Server_Info_Panel.sgmodule
+https://raw.githubusercontent.com/Sestea/Profiles/legacy/Surge/Module/Server_Info_Panel.sgmodule
 ```
 找到 `server=http://localhost:7122` 字样，将 `http://localhost:7122` 替换为你的服务器的IP和端口号，如 `http://1.1.1.1:7122`（注意不要省略 http://）
 

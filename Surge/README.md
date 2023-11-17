@@ -17,7 +17,7 @@
 在 `Profiles` 页面点击 `Download Profile from URL`，复制下方链接并粘贴
 
 ```
-https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Surge.conf
+https://raw.githubusercontent.com/Sestea/Profiles/legacy/Surge/Surge.conf
 ```
 
 导入成功后，将 `[Proxy Group]` 下条目 `DuckDuckGo`（远程策略组示例）中的 `[REPLACE WITH YOUR SURGE NODELIST]` 字样替换为你的订阅链接。
@@ -45,17 +45,17 @@ https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Surge.conf
 ```ini
 [Rule]
 # [可选] 屏蔽规则（简单的广告拦截，防止运营商劫持，跟踪器和恶意软件屏蔽） 
-RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Ruleset/Block.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/legacy/Surge/Ruleset/Block.list,REJECT
 # [可选] 部分启用了评论区 IP 显示显示的国内平台（如微信公众号评论、Bilibili、贴吧等） 
-# RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Ruleset/Censor.list,Proxy
+# RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/legacy/Surge/Ruleset/Censor.list,Proxy
 # 国际流媒体服务
-RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Ruleset/Streaming.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/legacy/Surge/Ruleset/Streaming.list,Proxy
 # 国际网络分流
-RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Ruleset/Global.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/legacy/Surge/Ruleset/Global.list,Proxy
 # Apple 服务
-RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Ruleset/Apple.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/legacy/Surge/Ruleset/Apple.list,DIRECT
 # 国内网络分流
-RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/master/Surge/Ruleset/China.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/Sestea/Profiles/legacy/Surge/Ruleset/China.list,DIRECT
 # 中国大陆 IP 直连（域名匹配到这里会进行 DNS 查询获取 IP，以对上述规则没有覆盖到的域名实现国内外分流）
 GEOIP,CN,DIRECT
 # 本地局域网请求直连

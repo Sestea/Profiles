@@ -192,42 +192,42 @@ rule-providers:
   Block:
     behavior: classical
     type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Block.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/legacy/Clash/Provider/Block.yaml"
     interval: 43200
     path: ./ruleset/Block.yaml
 
   Censor:
     behavior: classical
     type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Censor.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/legacy/Clash/Provider/Censor.yaml"
     interval: 43200
     path: ./ruleset/Censor.yaml
 
   Streaming:
     behavior: classical
     type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Streaming.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/legacy/Clash/Provider/Streaming.yaml"
     interval: 43200
     path: ./ruleset/Streaming.yaml
 
   Global:
     behavior: classical
     type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Global.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/legacy/Clash/Provider/Global.yaml"
     interval: 43200
     path: ./ruleset/Global.yaml
 
   Apple:
     behavior: classical
     type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/Apple.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/legacy/Clash/Provider/Apple.yaml"
     interval: 43200
     path: ./ruleset/Apple.yaml
 
   China:
     behavior: classical
     type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/master/Clash/Provider/China.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Sestea/Profiles/legacy/Clash/Provider/China.yaml"
     interval: 43200
     path: ./ruleset/China.yaml
 
