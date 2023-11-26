@@ -60,12 +60,16 @@ DOMAIN-SUFFIX,lencr.io
 DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-SUFFIX,licensebuttons.net
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,livekit.io
 DOMAIN-SUFFIX,lowiro.com
 DOMAIN-SUFFIX,lowiro-cdn.net
 DOMAIN-SUFFIX,mastercard.com
 DOMAIN-SUFFIX,mastercard.us
 DOMAIN-SUFFIX,medibang.com
 DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,misskey.io
+DOMAIN-SUFFIX,misskeyusercontent.com
 DOMAIN-SUFFIX,mojang.com
 DOMAIN-SUFFIX,mtf.wiki
 DOMAIN-SUFFIX,mux.com
@@ -415,6 +419,8 @@ DOMAIN-SUFFIX,notion.so
 # > OpenAI
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 # > Pinterest
 DOMAIN-SUFFIX,pin.it
 DOMAIN-SUFFIX,pinimg.com
