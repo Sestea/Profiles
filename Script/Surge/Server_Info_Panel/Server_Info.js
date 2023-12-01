@@ -29,7 +29,7 @@ function formatUptime(seconds) {
     result += days + ' day' + (days > 1 ? 's' : '') + ', ';
   }
   if (hours > 0) {
-    result += hours + ' hour' + (hours > 1 ? 's' : '') + ' ';
+    result += hours + ' hr' + (hours > 1 ? 's' : '') + ' ';
   }
   if (minutes > 0 || result === '') {
     result += minutes + ' min' + (minutes > 1 ? 's' : '');
