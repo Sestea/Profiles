@@ -1,0 +1,8 @@
+#!name=SoundCloud Enhanced
+#!desc=Activate SoundCloud Go+, remove ads and unlock offline sync features.
+
+[Script]
+SoundCloud_Enhanced = type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/Sestea/Profiles/master/Script/Surge/SoundCloud_Enhanced/soundcloud.js
+
+[MITM]
+hostname = %APPEND% api-mobile.soundcloud.com
