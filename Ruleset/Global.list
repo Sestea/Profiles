@@ -567,9 +567,6 @@ DOMAIN,books.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,tv.apple.com
 # ------
-# > Duolingo
-DOMAIN-SUFFIX,duolingo.cn
-DOMAIN-SUFFIX,duolingo.com
 # ---(Microsoft)---
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,linkedin.com
