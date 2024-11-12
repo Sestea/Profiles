@@ -36,6 +36,8 @@ DOMAIN-SUFFIX,dnsleak.com
 DOMAIN-SUFFIX,dnsleaktest.com
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,esm.sh
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,f-droid.org
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,figma.com
@@ -48,6 +50,7 @@ DOMAIN-SUFFIX,giscus.app
 DOMAIN-SUFFIX,githack.com
 DOMAIN-SUFFIX,gnu.org
 DOMAIN-SUFFIX,greatfire.org
+DOMAIN-SUFFIX,here.com
 DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,ift.tt
 DOMAIN-SUFFIX,ifttt.com
@@ -74,6 +77,7 @@ DOMAIN-SUFFIX,mojang.com
 DOMAIN-SUFFIX,mtf.wiki
 DOMAIN-SUFFIX,mux.com
 DOMAIN-SUFFIX,netlify.app
+DOMAIN-SUFFIX,nhentai.net
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,nyaa.si
 DOMAIN-SUFFIX,onesignal.com
@@ -90,6 +94,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,shadowsocks.org
 DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,sketch.com
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,spoutible.com
 DOMAIN-SUFFIX,startpage.com
@@ -197,16 +202,15 @@ DOMAIN-KEYWORD,.blogspot.
 DOMAIN-SUFFIX,go.dev
 DOMAIN-SUFFIX,golang.org
 # > Amazon
+DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,boxofficemojo.com
+DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
 DOMAIN-SUFFIX,media-imdb.com
-DOMAIN,d3c33hcgiwev3.cloudfront.net
-DOMAIN,payments-jp.amazon.com
-DOMAIN,impala-media-production.s3.amazonaws.com
-DOMAIN,s3-ap-northeast-1.amazonaws.com
-DOMAIN,s3-ap-southeast-2.amazonaws.com
+DOMAIN-SUFFIX,cloudfront.net
 # > Apple
 DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN,testflight.apple.com
@@ -346,6 +350,7 @@ DOMAIN-KEYWORD,.facebook.
 # > Microsoft
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.dev
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubapp.com
