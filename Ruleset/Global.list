@@ -115,6 +115,24 @@ DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,xda-developers.com
 DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zeronet.io
+# > AI
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,dify.ai
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-KEYWORD,openai
 # > Akamai
 DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
@@ -176,6 +194,8 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,zynamics.com
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,.blogspot.
+DOMAIN-SUFFIX,go.dev
+DOMAIN-SUFFIX,golang.org
 # > Amazon
 DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-SUFFIX,boxofficemojo.com
@@ -323,7 +343,6 @@ DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-KEYWORD,.facebook.
 # > Microsoft
-DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,github.blog
 DOMAIN-SUFFIX,github.com
@@ -332,12 +351,99 @@ DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubstatus.com
 DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,streaming.mediaservices.windows.net
-DOMAIN,assets1.xboxlive.com
-DOMAIN,assets2.xboxlive.com
-DOMAIN,az416426.vo.msecnd.net
-DOMAIN,az668014.vo.msecnd.net
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,aka.ms
+DOMAIN-SUFFIX,gfx.ms
+DOMAIN-SUFFIX,sfx.ms
+DOMAIN-SUFFIX,svc.ms
+DOMAIN-SUFFIX,aria.ms
+DOMAIN-SUFFIX,mstea.ms
+DOMAIN-SUFFIX,clarity.ms
+DOMAIN-SUFFIX,onestore.ms
+DOMAIN-SUFFIX,staffhub.ms
+DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,docs.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,lync.com
+DOMAIN-SUFFIX,sway.com
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,aadrm.com
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,msocdn.com
+DOMAIN-SUFFIX,msocsp.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,yammer.com
+DOMAIN-SUFFIX,acompli.com
+DOMAIN-SUFFIX,onenote.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,azurerms.com
+DOMAIN-SUFFIX,o365weve.com
+DOMAIN-SUFFIX,oaspapps.com
+DOMAIN-SUFFIX,omniroot.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,sway-cdn.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,aspnetcdn.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,sfbassets.com
+DOMAIN-SUFFIX,uservoice.com
+DOMAIN-SUFFIX,msidentity.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,wunderlist.com
+DOMAIN-SUFFIX,skypeassets.com
+DOMAIN-SUFFIX,msftidentity.com
+DOMAIN-SUFFIX,public-trust.com
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,windowsazure.com
+DOMAIN-SUFFIX,xboxservices.com
+DOMAIN-SUFFIX,assets-yammer.com
+DOMAIN-SUFFIX,outlookmobile.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,sway-extensions.com
+DOMAIN-SUFFIX,cloudappsecurity.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,skypeforbusiness.com
+DOMAIN-SUFFIX,yammerusercontent.com
+DOMAIN-SUFFIX,asp.net
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msft.net
+DOMAIN-SUFFIX,azure.net
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msecnd.net
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,acompli.net
+DOMAIN-SUFFIX,onenote.net
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,cloudapp.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,edgesuite.net
+DOMAIN-SUFFIX,officeppe.net
+DOMAIN-SUFFIX,msappproxy.net
+DOMAIN-SUFFIX,phonefactor.net
+DOMAIN-SUFFIX,windows-ppe.net
+DOMAIN-SUFFIX,msauthimages.net
+DOMAIN-SUFFIX,virtualearth.net
+DOMAIN-SUFFIX,msftauthimages.net
+DOMAIN-SUFFIX,trafficmanager.net
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,hotmail
+# > Mozilia
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,firefoxusercontent.com
+DOMAIN-SUFFIX,getpocket.com
+DOMAIN-SUFFIX,mozilla.com
+DOMAIN-SUFFIX,mozilla.community
+DOMAIN-SUFFIX,mozilla.net
+DOMAIN-SUFFIX,mozilla.org
+DOMAIN-SUFFIX,thunderbird.net
 # ---(Newsletter)---
 DOMAIN-SUFFIX,appledaily.com
 DOMAIN-SUFFIX,abc.com
@@ -416,10 +522,6 @@ DOMAIN-SUFFIX,notion-static.com
 DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
-# > OpenAI
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
 # > Pinterest
 DOMAIN-SUFFIX,pin.it
 DOMAIN-SUFFIX,pinimg.com
@@ -538,9 +640,6 @@ DOMAIN-SUFFIX,yadi.sk
 DOMAIN-SUFFIX,yastatic.net
 
 # (Region-Restricted Access Denied)
-# > Alphabet
-DOMAIN-SUFFIX,go.dev
-DOMAIN-SUFFIX,golang.org
 # ---(Apple)---
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,smoot.apple.com
@@ -566,33 +665,6 @@ DOMAIN,books.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,tv.apple.com
 # ------
-# ---(Microsoft)---
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,licdn.com
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,skype.com
-# > Microsoft Edge
-DOMAIN,edge.activity.windows.com
-DOMAIN,edge.microsoft.com
-DOMAIN,iecvlist.microsoft.com
-DOMAIN,msedge.api.cdp.microsoft.com
-# > Microsoft Teams
-DOMAIN-SUFFIX,teams.cdn.live.net
-DOMAIN-SUFFIX,teams.live.com
-DOMAIN-SUFFIX,teams.microsoft.com
-DOMAIN,teams.events.data.microsoft.com
-# DOMAIN,statics.teams.cdn.office.net
-# ------
-# > Mozilia
-DOMAIN-SUFFIX,firefox.com
-DOMAIN-SUFFIX,firefoxusercontent.com
-DOMAIN-SUFFIX,getpocket.com
-DOMAIN-SUFFIX,mozilla.com
-DOMAIN-SUFFIX,mozilla.community
-DOMAIN-SUFFIX,mozilla.net
-DOMAIN-SUFFIX,mozilla.org
-DOMAIN-SUFFIX,thunderbird.net
 # > VikACG
 DOMAIN-SUFFIX,vikacg.com
 DOMAIN-SUFFIX,picjs.xyz
