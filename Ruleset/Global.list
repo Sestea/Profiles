@@ -138,9 +138,6 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-KEYWORD,openai
-# > Akamai
-DOMAIN,a248.e.akamai.net
-DOMAIN,a771.dscq.akamai.net
 # > Alphabet
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,admob.com
@@ -290,11 +287,6 @@ DOMAIN-SUFFIX,dropboxusercontent.com
 # > DuckDuckGo
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,spreadprivacy.com
-# > Fastly
-DOMAIN-SUFFIX,freetls.fastly.net
-DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net
-DOMAIN,github.global.ssl.fastly.net
-DOMAIN,nytimes.map.fastly.net
 # > GitBook
 DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,gitbook.io
