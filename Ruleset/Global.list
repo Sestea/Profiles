@@ -554,7 +554,6 @@ DOMAIN,lookup-api.apple.com.edgekey.net
 DOMAIN,e16991.b.akamaiedge.net
 # > News
 DOMAIN-SUFFIX,apple.news
-DOMAIN,gateway.icloud.com
 DOMAIN,news-assets.apple.com
 DOMAIN,news-client.apple.com
 DOMAIN,news-client-search.apple.com
