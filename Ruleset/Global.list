@@ -443,6 +443,10 @@ DOMAIN-SUFFIX,mozilla.community
 DOMAIN-SUFFIX,mozilla.net
 DOMAIN-SUFFIX,mozilla.org
 DOMAIN-SUFFIX,thunderbird.net
+# > Misskey
+DOMAIN-SUFFIX,misskey.io
+DOMAIN-SUFFIX,misskey-hub.net
+DOMAIN-SUFFIX,misskeyusercontent.jp
 # ---(Newsletter)---
 DOMAIN-SUFFIX,appledaily.com
 DOMAIN-SUFFIX,abc.com
