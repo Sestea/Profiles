@@ -1,4 +1,4 @@
-# China Area Network
+# Direct exclusions
 
 DOMAIN-SUFFIX,snapdrop.net
 DOMAIN,origin-a.akamaihd.net
@@ -37,14 +37,6 @@ DOMAIN-SUFFIX,storeedgefd.dsx.mp.microsoft.com
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
 DOMAIN,statics.teams.cdn.office.net
 # ------
-# > PayPal
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypalobjects.com
-# > Steam
-DOMAIN-SUFFIX,cm.steampowered.com
-DOMAIN-SUFFIX,steamserver.net
 # > TeamViewer
 DOMAIN-SUFFIX,teamviewer.com
 IP-CIDR,139.220.243.27/32,no-resolve
@@ -55,10 +47,14 @@ IP-CIDR6,2a0b:b580::/48,no-resolve
 IP-CIDR6,2a0b:b581::/48,no-resolve
 IP-CIDR6,2a0b:b582::/48,no-resolve
 IP-CIDR6,2a0b:b583::/48,no-resolve
-# > Tencent
-IP-CIDR,182.254.116.0/24,no-resolve
-IP-CIDR,203.205.238.0/23,no-resolve
-IP-CIDR,203.205.254.0/23,no-resolve
+# > PayPal
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,paypalobjects.com
+# > Steam
+DOMAIN-SUFFIX,cm.steampowered.com
+DOMAIN-SUFFIX,steamserver.net
 # > IP Query
 DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,test-ipv6.com

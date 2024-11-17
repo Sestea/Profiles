@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,diverse.jp
 DOMAIN-SUFFIX,dnsleak.com
 DOMAIN-SUFFIX,dnsleaktest.com
 DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,edgekey.net
 DOMAIN-SUFFIX,esm.sh
 DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,exhentai.org
@@ -138,6 +139,13 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-KEYWORD,openai
+# > Akamai
+DOMAIN-SUFFIX,akamai.com
+DOMAIN-SUFFIX,akamai.net
+DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,akamaistream.net
+DOMAIN-SUFFIX,akamaized.net
 # > Alphabet
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,admob.com
@@ -317,6 +325,17 @@ DOMAIN-SUFFIX,catgirl.cloud
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,mega.io
 DOMAIN-SUFFIX,mega.nz
+IP-CIDR,185.206.24.0/22,no-resolve
+IP-CIDR,66.203.126.0/23,no-resolve
+IP-CIDR,94.24.36.0/23,no-resolve
+IP-CIDR,162.208.16.0/24,no-resolve
+IP-CIDR6,2a0b:e40:1::/48,no-resolve
+IP-CIDR6,2a0b:e40:2::/47,no-resolve
+IP-CIDR6,2a0b:e41:1::/48,no-resolve
+IP-CIDR6,2a0b:e42:1::/48,no-resolve
+IP-CIDR6,2a0b:e43:1::/48,no-resolve
+IP-CIDR6,2a0b:e44:1::/48,no-resolve
+IP-CIDR6,2a0b:e45:1::/48,no-resolve
 # > Meta
 DOMAIN-SUFFIX,accountkit.com
 DOMAIN-SUFFIX,cdninstagram.com
@@ -621,6 +640,9 @@ DOMAIN-SUFFIX,vercel-insights.com
 DOMAIN-SUFFIX,vercel-status.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,vercel.com
+# > VikACG
+DOMAIN-SUFFIX,vikacg.com
+DOMAIN-SUFFIX,picjs.xyz
 # > Wikimedia Foundation
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
@@ -657,8 +679,6 @@ DOMAIN,books.itunes.apple.com
 DOMAIN,radio.itunes.apple.com
 # > macOS Lookup
 DOMAIN,lookup-api.apple.com
-DOMAIN,lookup-api.apple.com.edgekey.net
-DOMAIN,e16991.b.akamaiedge.net
 # > News
 DOMAIN-SUFFIX,apple.news
 DOMAIN,news-assets.apple.com
@@ -673,6 +693,3 @@ DOMAIN,books.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,tv.apple.com
 # ------
-# > VikACG
-DOMAIN-SUFFIX,vikacg.com
-DOMAIN-SUFFIX,picjs.xyz
