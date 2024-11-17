@@ -47,7 +47,7 @@ IP 类型规则有一个专有的参数 `no-resolve`，如果一个 IP 规则带
 
 该远程规则集中的所有 IP 规则均已添加此参数。
 
-## Remote Rules 远程规则集列表 `1466`
+## Remote Rules 远程规则集列表
 
 这里列出了该项目中所有的远程规则集，数字即规则条数。
 
@@ -81,7 +81,7 @@ IP 类型规则有一个专有的参数 `no-resolve`，如果一个 IP 规则带
 
 屏蔽了一些常见的跟踪器和使用情况分析域名。
 
-### Exclude.list  🟠DIRECT
+### Domestic.list  🟠DIRECT
 
 在中国大陆境内建议直连的网络服务。如 Microsoft CDN（包含 Windows Update 更新），游戏平台下载服务器和 Private Tracker 等。
 
