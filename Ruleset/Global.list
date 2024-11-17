@@ -586,9 +586,9 @@ DOMAIN-SUFFIX,stacksnippets.net
 DOMAIN-SUFFIX,superuser.com
 # > Steam
 DOMAIN-SUFFIX,s.team
-DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steam-chat.com
-DOMAIN,store.steampowered.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steampowered.com
 # > Telegram
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,graph.org
