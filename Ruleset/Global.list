@@ -305,6 +305,23 @@ DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,gitlab.net
 DOMAIN-SUFFIX,gitter-static.net
 DOMAIN-SUFFIX,gitter.im
+# ---(Jetbrains)---
+DOMAIN-SUFFIX,datalore.io
+DOMAIN-SUFFIX,intellij.com
+DOMAIN-SUFFIX,intellij.net
+DOMAIN-SUFFIX,intellij.org
+DOMAIN-SUFFIX,jetbrains.com
+DOMAIN-SUFFIX,jetbrains.net
+DOMAIN-SUFFIX,jetbrains.org
+DOMAIN-SUFFIX,jetbrains.space
+DOMAIN-SUFFIX,jetbrains.team
+DOMAIN-SUFFIX,kotlinconf.com
+DOMAIN-SUFFIX,kotlinlang.org
+# > JetBrains AI
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,jetbrains.io
+# ------
 # > Line
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line-apps.com
@@ -358,17 +375,7 @@ DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-KEYWORD,.facebook.
-# > Microsoft
-DOMAIN-SUFFIX,git.io
-DOMAIN-SUFFIX,github.blog
-DOMAIN-SUFFIX,github.dev
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubapp.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubstatus.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,githubuniverse.com
+# ---(Microsoft)---
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,aka.ms
@@ -454,6 +461,18 @@ DOMAIN-SUFFIX,trafficmanager.net
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,hotmail
+# > GitHub
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubstatus.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubuniverse.com
+# ------
 # > Mozilia
 DOMAIN-SUFFIX,firefox.com
 DOMAIN-SUFFIX,firefoxusercontent.com
