@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,bit.ly
 DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,branch.io
+DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,codesandbox.io
 DOMAIN-SUFFIX,cookielaw.org
@@ -56,6 +57,7 @@ DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,ift.tt
 DOMAIN-SUFFIX,ifttt.com
 DOMAIN-SUFFIX,imgur.com
+DOMAIN-SUFFIX,influxdata.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,jsdelivr.net
@@ -633,6 +635,7 @@ IP-CIDR,91.108.16.0/22,no-resolve
 IP-CIDR,91.108.20.0/22,no-resolve
 IP-CIDR,91.108.56.0/22,no-resolve
 IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,95.161.76.101,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR,185.76.151.0/24,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
