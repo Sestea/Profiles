@@ -51,7 +51,7 @@ IP 类型规则有一个专有的参数 `no-resolve`，如果一个 IP 规则带
 
 这里列出了该项目中所有的远程规则集，数字即规则条数。
 
-### Block.list `578` ⛔REJECT
+### Block.list `REJECT`
 
 这里提供了一个简单的 Block.list，此外，除非明确需求否则不建议使用其他广告屏蔽规则。
 
@@ -81,15 +81,15 @@ IP 类型规则有一个专有的参数 `no-resolve`，如果一个 IP 规则带
 
 屏蔽了一些常见的跟踪器和使用情况分析域名。
 
-### Domestic.list  🟠DIRECT
+### Domestic.list  `DIRECT`
 
 在中国大陆境内建议直连的网络服务。如 Microsoft CDN（包含 Windows Update 更新），游戏平台下载服务器和 Private Tracker 等。
 
-### Streaming.list 🔵PROXY
+### Streaming.list `PROXY`
 
 常见国外流媒体服务的集合。
 
-### Global.list 🔵PROXY
+### Global.list `PROXY`
 
 #### Essentials
 
@@ -101,19 +101,19 @@ IP 类型规则有一个专有的参数 `no-resolve`，如果一个 IP 规则带
 
 中国大陆用户访问时，功能会受到限制的网络服务。
 
-> 中国大陆境内被动或主动屏蔽的部分 Apple 服务子域名已加入，可恢复部分被屏蔽的功能（如 macOS 词典 Wikipedia 搜索）。Apple 设备配合 [iRingo](https://github.com/VirgilClyne/iRingo) 可更好的解锁完整的 Apple 功能和集成服务。
+> 中国大陆境内被动或主动屏蔽的部分 Apple 服务子域名已加入，可恢复部分被屏蔽的功能（如 macOS 词典 Wikipedia 搜索）。Apple 设备配合 [iRingo](https://nsringo.github.io) 可更好的解锁完整的 Apple 功能和集成服务。
 
-### Apple.list 🟠DIRECT
+### Apple.list `DIRECT`
 
 Apple 在国内建议直连的域名。
 
 ## Local Rules 本地规则列表
 
-### GEOIP CN 🟠DIRECT
+### GEOIP CN `DIRECT`
 
 上述规则集不存在会触发未匹配域名 DNS 解析的 IP 规则。未匹配成功的主机名匹配到此条目时将会触发 DNS 解析，如果返回的结果为中国 IP 则会走直连策略，反之跳过此规则。
 
-### LAN 🟠DIRECT
+### LAN `DIRECT`
 
 本地局域网地址。
 
@@ -129,7 +129,7 @@ IP-CIDR,224.0.0.0/4,DIRECT
 IP-CIDR6,fe80::/10,DIRECT
 ```
 
-### FINAL 🔵PROXY `dns-failed`
+### FINAL `PROXY`
 
 最终规则，未被上述规则匹配的任何连接将会匹配它所对应的策略。
 
