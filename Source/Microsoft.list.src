@@ -1,0 +1,151 @@
+# Microsoft Unified Domains
+.microsoft
+.aka.ms // aka -> also known as : url shortening service
+.gfx.ms // gfx -> graphics : hosting of static images
+.sfx.ms // sfx -> self-extracting: automated deployment
+.svc.ms // svc ->  service : endpoints and interfaces
+.bing.com
+.live.com
+.msn.com
+.microsoft.com
+.windows.com
+.windows.net
+
+# Azure
+.azmk8s.io
+.aadrm.com
+.azxure.com
+.azure.ai
+.azure.net
+.azure-api.net
+.azure-apim.net
+.azure-mobile.net
+.azurerms.com
+.azurecontainer.io
+.azurecr.io
+.azureedge.net
+.azurefd.net
+.azurewebsites.net
+.clarity.ms
+.cloudapp.net
+.trafficmanager.net
+
+# GitHub
+.git.io
+.github.blog
+.github.com
+.github.dev
+.github.io
+.githubapp.com
+.githubassets.com
+.githubcopilot.com
+.githubstatus.com
+.githubuniverse.com
+.githubusercontent.com
+
+# Intune
+.passport.net
+.s-microsoft.com
+
+# Linkedin
+.licdn.com
+.linkedin.at
+.linkedin.com
+.lnkd.in
+
+# Microsoft Teams
+.lync.com
+.staffhub.ms
+.skype.com
+.skypeassets.com
+
+
+# Microsoft 365 Common and Office Online
+.acompli.com
+.acompli.net
+.aspnetcdn.com
+.assets-yammer.com
+.cloudappsecurity.com
+.getmicrosoftkey.com
+.microsoftazuread-sso.com
+.microsoftonline-p.com
+.microsoftonline-p.net
+.microsoftonline.com
+.microsoftusercontent.com
+.microsoftpersonalcontent.com
+.msauth.net
+.msauthimages.net
+.msecnd.net
+.msedge.net
+.msft.net
+.msftauth.net
+.msftauthimages.net
+.msftidentity.com
+.msidentity.com
+.msocdn.com
+.o365weve.com
+.oaspapps.com
+.office.com
+.office.net
+.office365.com
+.onenote.com
+.onenote.net
+.onestore.ms
+.onmicrosoft.com
+.outlook.com
+.outlookmobile.com
+.phonefactor.net
+.prod.firstpartyapps.oaspapps.com.akadns.net
+.staffhub.ms
+.sway-cdn.com
+.sway-extensions.com
+.sway.com
+.virtualearth.net
+.windows-ppe.net
+.windowsazure.com
+.yammer.com
+.yammerusercontent.com
+
+.digicert.com
+.entrust.net
+.geotrust.com
+.globalsign.com
+.globalsign.net
+.identrust.com
+.letsencrypt.org
+.msocsp.com
+.omniroot.com
+.public-trust.com
+.symcb.com
+.symcd.com
+.verisign.com
+.verisign.net
+
+# Power Platform and Dynamics 365
+.d365ccafpi.com
+.dynamics.com
+.powerapps.com
+.powerautomate.com
+.powerbi.com
+.powerplatform.com
+.powerplatformusercontent.com
+
+# SharePoint and OneDrive
+.onedrive.com
+.sharepoint.com
+.sharepointonline.com
+.spoprod-a.akamaihd.net
+
+# Visual Studio
+.appcenter.ms
+.exp-tas.com
+.hockeyapp.net
+.visualstudio.com
+.vsassets.io
+.vscode-unpkg.net
+.vscode.dev
+
+# Xbox
+.xbox.com
+.xboxlive.com
+.xboxservices.com

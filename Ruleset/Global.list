@@ -220,7 +220,6 @@ DOMAIN-SUFFIX,media-imdb.com
 DOMAIN-SUFFIX,cloudfront.net
 # > Apple
 DOMAIN-SUFFIX,safebrowsing.apple
-DOMAIN,testflight.apple.com
 # > Automattic
 DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,tumblr.com
@@ -471,6 +470,7 @@ DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,githubstatus.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,githubuniverse.com
@@ -694,12 +694,6 @@ DOMAIN-SUFFIX,yastatic.net
 
 # (Region-Restricted Access Denied)
 # ---(Apple)---
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN,amp-api.podcasts.apple.com
-DOMAIN,beta.music.apple.com
-DOMAIN,books.itunes.apple.com
-DOMAIN,radio.itunes.apple.com
 # > macOS Lookup
 DOMAIN,lookup-api.apple.com
 # > News
@@ -710,9 +704,3 @@ DOMAIN,news-client-search.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
 DOMAIN,apple.comscoreresearch.com
-# > Web Preview
-DOMAIN,apps.apple.com
-DOMAIN,books.apple.com
-DOMAIN,itunes.apple.com
-DOMAIN,tv.apple.com
-# ------
