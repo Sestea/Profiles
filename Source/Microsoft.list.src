@@ -1,9 +1,13 @@
 # Microsoft Unified Domains
 .microsoft
-.aka.ms // aka -> also known as : url shortening service
-.gfx.ms // gfx -> graphics : hosting of static images
-.sfx.ms // sfx -> self-extracting: automated deployment
-.svc.ms // svc ->  service : endpoints and interfaces
+# aka -> also known as : url shortening service
+.aka.ms
+# gfx -> graphics : hosting of static images
+.gfx.ms
+# sfx -> self-extracting: automated deployment
+.sfx.ms
+# svc ->  service : endpoints and interfaces
+.svc.ms
 .bing.com
 .live.com
 .msn.com
