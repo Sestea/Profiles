@@ -1,0 +1,142 @@
+# 1Password
+.agilebits.com
+.1password.com
+
+# Claude
+.anthropic.com
+.claude.ai
+
+# Discord
+.discord.com
+.discord.gg
+.discord.media
+.discordapp.com
+.discordapp.net
+
+# DuckDuckGo
+.duckduckgo.com
+.spreadprivacy.com
+
+# GitLab
+.gitlab-static.net
+.gitlab.com
+.gitlab.io
+.gitlab.net
+.gitter-static.net
+.gitter.im
+
+# ---(Google)---
+.android.com
+.g.co
+.gcr.io
+.ggpht.com
+.goog
+.google
+.google.com
+.googleapis.com
+.googleusercontent.com
+.gvt0.com
+.gvt1.com
+.gvt3.com
+.recaptcha.net
+.withgoogle.com
+
+# Firebase
+.app-measurement.com
+.crashlytics.com
+.firebaseapp.com
+
+# Google Ads
+.doubleclick.net
+.google-analytics.com
+.googleadservices.com
+.googlesyndication.com
+.googletagmanager.com
+.googletagservices.com
+
+# YouTube
+.googlevideo.com
+.yt.be
+.youtu.be
+.youtube.com
+.youtubekids.com
+.ytimg.com
+# ------
+
+# Matrix
+.matrix.org
+.vector.im
+.catgirl.cloud
+
+# Misskey
+.misskey.io
+.misskey-hub.net
+.misskeyusercontent.jp
+
+# Mozilia
+.firefox.com
+.firefoxusercontent.com
+.getpocket.com
+.mozilla.com
+.mozilla.org
+.thunderbird.net
+
+# Notion
+.notion.com
+.notion-static.com
+.notionusercontent.com
+.notion.site
+.notion.so
+
+# OpenAI
+.openai.com
+.oaistatic.com
+.sora.com
+.chatgpt.com
+.chat.com
+.ai.com
+.x.ai
+
+# pixiv
+.fanbox.cc
+.pixiv.net
+.pixiv.org
+.pximg.net
+
+# Reddit
+.redd.it
+.reddit.com
+.redditmedia.com
+.redditstatic.com
+
+# Steam
+.s.team
+.steam-chat.com
+.steamcommunity.com
+.steampowered.com
+
+# Telegram
+.comments.app
+.t.me
+.telegra.ph
+.telegram.org
+.telesco.pe
+.tg.dev
+
+# Twitter
+.ads-twitter.com
+.periscope.tv
+.pscp.tv
+.t.co
+.tweetdeck.com
+.twimg.co
+.twimg.com
+.twitpic.com
+.twitter.com
+.twitter.jp
+.vine.co
+.x.com
+
+# Other
+.brew.sh
+.proton.me

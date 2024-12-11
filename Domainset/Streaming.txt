@@ -1,0 +1,47 @@
+# Twitch
+.ext-twitch.tv
+.jtvnw.net
+.ttvnw.net
+.twitch.tv
+.twitchcdn.net
+.twitch-ext.rootonline.de
+
+# SoundCloud
+.p-cdn.us
+.sndcdn.com
+.soundcloud.com
+
+# Spotify
+.pscdn.co
+.scdn.co
+.spotify.com
+.byspotify.com
+.spoti.fi
+.spotify-everywhere.com
+.spotify.design
+.spotifycdn.com
+.spotifycdn.net
+.spotifycharts.com
+.spotifycodes.com
+.spotifyforbrands.com
+.spotifyjobs.com
+
+# Netflix
+.netflix.com
+.netflix.net
+.nflxext.com
+.nflximg.com
+.nflximg.net
+.nflxso.net
+.nflxvideo.net
+
+# niconico
+.dmc.nico
+.nicodic.jp
+.nicomanga.jp
+.niconico.com
+.nicoseiga.jp
+.nicovideo.jp
+.nimg.jp
+.simg.jp
+.socdm.com

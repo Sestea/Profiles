@@ -1,12 +1,8 @@
 # Microsoft Unified Domains
 .microsoft
-# aka -> also known as : url shortening service
 .aka.ms
-# gfx -> graphics : hosting of static images
 .gfx.ms
-# sfx -> self-extracting: automated deployment
 .sfx.ms
-# svc ->  service : endpoints and interfaces
 .svc.ms
 .bing.com
 .live.com
@@ -20,6 +16,7 @@
 .aadrm.com
 .azxure.com
 .azure.ai
+.azure.com
 .azure.net
 .azure-api.net
 .azure-apim.net
@@ -62,7 +59,6 @@
 .staffhub.ms
 .skype.com
 .skypeassets.com
-
 
 # Microsoft 365 Common and Office Online
 .acompli.com
@@ -110,6 +106,7 @@
 .yammer.com
 .yammerusercontent.com
 
+# Certificate Authorities
 .digicert.com
 .entrust.net
 .geotrust.com
