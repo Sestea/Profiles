@@ -1,0 +1,133 @@
+# 1Password
+DOMAIN-SUFFIX,agilebits.com
+DOMAIN-SUFFIX,1password.com
+
+# Apple
+DOMAIN,apple-relay.apple.com
+DOMAIN,lookup-api.apple.com
+
+# Claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+# Cloudflare
+DOMAIN-SUFFIX,one.one.one.one
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,videodelivery.net
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-KEYWORD,cloudflare
+
+# Discord
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordstatus.com
+
+# DuckDuckGo
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,spreadprivacy.com
+
+# GitLab
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,gitlab.net
+DOMAIN-SUFFIX,gitlab-static.net
+
+# ---(Google)---
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,goog
+DOMAIN-SUFFIX,google
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gvt0.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,withgoogle.com
+# > Google Ads
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+# > Google Firebase
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,firebaseapp.com
+# ------
+
+# Matrix
+DOMAIN-SUFFIX,matrix.org
+DOMAIN-SUFFIX,vector.im
+DOMAIN-SUFFIX,element.io
+DOMAIN-SUFFIX,catgirl.cloud
+
+# Misskey
+DOMAIN-SUFFIX,misskey.io
+DOMAIN-SUFFIX,misskey-hub.net
+DOMAIN-SUFFIX,misskeyusercontent.jp
+
+# Mozilia
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,firefoxusercontent.com
+DOMAIN-SUFFIX,getpocket.com
+DOMAIN-SUFFIX,mozilla.com
+DOMAIN-SUFFIX,mozilla.org
+DOMAIN-SUFFIX,thunderbird.net
+
+# Notion
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notionusercontent.com
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.so
+
+# OpenAI
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,x.ai
+
+# pixiv
+DOMAIN-SUFFIX,fanbox.cc
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pixiv.org
+DOMAIN-SUFFIX,pximg.net
+
+# Reddit
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+
+# Steam
+DOMAIN-SUFFIX,s.team
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steampowered.com
+
+# Twitter
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,x.com
+
+# Other
+DOMAIN-SUFFIX,brew.sh
+DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,torproject.org
+DOMAIN-SUFFIX,v2ex.com

@@ -1,0 +1,29 @@
+# Epic Games
+DOMAIN-SUFFIX,eac-cdn.com
+DOMAIN-SUFFIX,easy.ac
+DOMAIN-SUFFIX,easyanticheat.net
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,epicgames.dev
+DOMAIN-SUFFIX,unrealengine.com
+DOMAIN-SUFFIX,unrealtournament.com
+
+# ---(Microsoft)---
+# > Windows Connectivity Test
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
+# > Windows Server Update Services
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,wustat.windows.com
+DOMAIN-SUFFIX,download.microsoft.com
+DOMAIN-SUFFIX,update.microsoft.com
+DOMAIN-SUFFIX,windowsupdate.microsoft.com
+DOMAIN-SUFFIX,ntservicepack.microsoft.com
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+# ------
+
+# Steam
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN,cm.steampowered.com
+
+# Private Tracker
+DOMAIN-SUFFIX,tjupt.org
