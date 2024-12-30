@@ -1,5 +1,4 @@
 # Apple Services
-
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.co
@@ -19,6 +18,7 @@ DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
 DOMAIN-KEYWORD,apple-support.akadns.net

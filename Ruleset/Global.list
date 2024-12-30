@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,idx.dev
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,withgoogle.com
 # > Google Ads
@@ -64,6 +65,7 @@ DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,firebaseio.com
 # ------
 
 # Matrix
@@ -102,6 +104,7 @@ DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,x.ai
 
 # pixiv
+DOMAIN-SUFFIX,booth.pm
 DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
@@ -128,6 +131,7 @@ DOMAIN-SUFFIX,x.com
 
 # Other
 DOMAIN-SUFFIX,brew.sh
+DOMAIN-SUFFIX,mtf.wiki
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,v2ex.com
