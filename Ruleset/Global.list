@@ -68,6 +68,15 @@ DOMAIN-SUFFIX,firebaseapp.com
 DOMAIN-SUFFIX,firebaseio.com
 # ------
 
+# JetBrains
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,hyperskill.org
+DOMAIN-SUFFIX,intellij.net
+DOMAIN-SUFFIX,jetbrains.com
+DOMAIN-SUFFIX,jetbrains.team
+DOMAIN-SUFFIX,kotlinconf.com
+DOMAIN-SUFFIX,kotlinlang.org
+
 # Matrix
 DOMAIN-SUFFIX,matrix.org
 DOMAIN-SUFFIX,vector.im
@@ -123,6 +132,7 @@ DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steampowered.com
 
 # Twitter
+DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
