@@ -110,7 +110,6 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,x.ai
 
 # pixiv
 DOMAIN-SUFFIX,booth.pm
@@ -137,6 +136,7 @@ DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.com
 
 # Other
