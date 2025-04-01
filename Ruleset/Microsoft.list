@@ -32,6 +32,7 @@ DOMAIN-SUFFIX,cloudapp.net
 DOMAIN-SUFFIX,trafficmanager.net
 
 # GitHub
+DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,github.blog
 DOMAIN-SUFFIX,github.com
