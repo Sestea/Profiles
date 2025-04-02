@@ -17,6 +17,12 @@ DOMAIN-SUFFIX,videodelivery.net
 DOMAIN-SUFFIX,workers.dev
 DOMAIN-KEYWORD,cloudflare
 
+# Cursor
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+
 # Discord
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.gg
@@ -106,9 +112,15 @@ DOMAIN-SUFFIX,notion.so
 # OpenAI
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chat.com
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN,pplx-res.cloudinary.com
 
 # pixiv
 DOMAIN-SUFFIX,booth.pm
@@ -131,6 +143,7 @@ DOMAIN-SUFFIX,steampowered.com
 
 # Twitter
 DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
