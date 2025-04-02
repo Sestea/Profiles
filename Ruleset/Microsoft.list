@@ -107,22 +107,6 @@ DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
 DOMAIN,prod.firstpartyapps.oaspapps.com.akadns.net
 
-# Certificate Authorities
-DOMAIN-SUFFIX,digicert.com
-DOMAIN-SUFFIX,entrust.net
-DOMAIN-SUFFIX,geotrust.com
-DOMAIN-SUFFIX,globalsign.com
-DOMAIN-SUFFIX,globalsign.net
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,letsencrypt.org
-DOMAIN-SUFFIX,msocsp.com
-DOMAIN-SUFFIX,omniroot.com
-DOMAIN-SUFFIX,public-trust.com
-DOMAIN-SUFFIX,symcb.com
-DOMAIN-SUFFIX,symcd.com
-DOMAIN-SUFFIX,verisign.com
-DOMAIN-SUFFIX,verisign.net
-
 # Power Platform and Dynamics 365
 DOMAIN-SUFFIX,d365ccafpi.com
 DOMAIN-SUFFIX,dynamics.com
